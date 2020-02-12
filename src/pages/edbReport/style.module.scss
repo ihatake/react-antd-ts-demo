@@ -1,0 +1,19 @@
+.layout {
+  height: 100%;
+}
+.content {
+  height: 100%;
+  margin: 0 !important;
+  & > div {
+    height: 100%;
+  }
+}
+.leftModule {
+  background-color: ghostwhite;
+}
+.centerModule {
+  background-color: pink;
+}
+.rightModule {
+  background-color: plum;
+}

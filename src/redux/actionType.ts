@@ -1,0 +1,4 @@
+export default {
+  LOGINSUCCESS: 'LOGINSUCCESS',
+  LOGINFAILED: 'LOGINFAILED'
+};
