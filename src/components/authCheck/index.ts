@@ -1,4 +1,4 @@
-import { compose, bindActionCreators } from 'redux';
+import { compose ,bindActionCreators} from 'redux';
 import { connect } from 'react-redux';
 import AuthCheck from './AuthCheck';
 import { userInfo } from '../../redux/user/action';

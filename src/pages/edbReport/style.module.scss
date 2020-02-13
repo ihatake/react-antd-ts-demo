@@ -3,17 +3,22 @@
 }
 .content {
   height: 100%;
-  margin: 0 !important;
+  display: flex;
+  flex-direction: row;
   & > div {
     height: 100%;
   }
 }
 .leftModule {
   background-color: ghostwhite;
+  display: flex;
+  flex-direction: row;
 }
 .centerModule {
   background-color: pink;
+  flex: 1;
 }
 .rightModule {
   background-color: plum;
+  width: 300px;
 }

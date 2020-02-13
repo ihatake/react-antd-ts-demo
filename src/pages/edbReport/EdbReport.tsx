@@ -1,6 +1,6 @@
 import React from 'react';
 import { RouteComponentProps } from 'react-router-dom';
-import { Layout, Row, Col } from 'antd';
+import { Layout } from 'antd';
 import styles from './style.module.scss';
 import RecentlyOpen from './recentlyOpen';
 import ExhibitionArea from './exhibitionArea';
@@ -16,17 +16,17 @@ function EdbReport(props: Props) {
     <>
       <Layout className={styles.layout}>
         <Content>
-          <Row className={styles.content}>
-            <Col span={5} className={styles.leftModule}>
+          <div className={styles.content}>
+            <div className={styles.leftModule}>
               <OperationArea />
-            </Col>
-            <Col span={14} className={styles.centerModule}>
+            </div>
+            <div className={styles.centerModule}>
               <ExhibitionArea />
-            </Col>
-            <Col span={5} className={styles.rightModule}>
+            </div>
+            <div className={styles.rightModule}>
               <RecentlyOpen />
-            </Col>
-          </Row>
+            </div>
+          </div>
         </Content>
       </Layout>
     </>
